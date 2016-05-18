@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "test": "mocha --compilers js:babel-register src/*.specs.js",
+    "compile": "npm run compile:node && npm run compile:browser",
     "compile:node": "babel src --ignore '*.specs.js' --out-dir dist",
     "compile:browser": "browserify src/load.module.js -o dist/load.browser.js -t [ babelify --presets [ es2015 ] ]",
     "cli": "env NPM_RUN_CLI=1",

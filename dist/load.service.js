@@ -97,10 +97,6 @@ function LoadService($q, $log) {
   }
 
   function _softlySetKey(scope, prop, key) {
-    for (var _len = arguments.length, values = Array(_len > 3 ? _len - 3 : 0), _key = 3; _key < _len; _key++) {
-      values[_key - 3] = arguments[_key];
-    }
-
     // Ensure the prop is alright
     scope[prop] = scope[prop] || {};
     // Properly init the key if no set
@@ -109,15 +105,19 @@ function LoadService($q, $log) {
       return newObject;
     }, {});
     // Carefully apply values
-    values.forEach(function (values) {
-      Object.keys(values || {}).forEach(function (valueKey) {
-        scope[prop][key][valueKey] = values[valueKey];
+
+    for (var _len = arguments.length, values = Array(_len > 3 ? _len - 3 : 0), _key = 3; _key < _len; _key++) {
+      values[_key - 3] = arguments[_key];
+    }
+
+    values.forEach(function (value) {
+      Object.keys(value).forEach(function (valueKey) {
+        scope[prop][key][valueKey] = value[valueKey];
       });
     });
   }
 
   function wrapHTTPCall(promise, expectedStatus) {
-    expectedStatus = expectedStatus || 200;
     return promise.catch(function (response) {
       var err = void 0;
 
