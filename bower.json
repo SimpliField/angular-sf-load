@@ -1,0 +1,21 @@
+{
+    "name": "angular-sf-load",
+    "version": "1.0.0",
+    "main": "./dist/load.browser.js",
+    "ignore": [
+      ".git*",
+      "node_modules",
+      "bower_components"
+    ],
+    "keywords": [
+        "angular",
+        "load",
+    ],
+    "dependencies": {
+        "angular": ">=1.0.8"
+    },
+    "devDependencies": {
+        "angular-mocks": ">=1.0.8",
+        "chai": "~1.8.1"
+    }
+}
