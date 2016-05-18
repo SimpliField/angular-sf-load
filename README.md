@@ -60,7 +60,7 @@ function HeroListController(sfLoadService, herosService) {
     sfLoadService.loadState($scope, {
       heros: herosService.list(),
       categories: herosService.getCategories(),
-    }).then(({ heros, categories }) {
+    }).then(({ heros, categories }) => {
       ctrl.heros = heros;
       ctrl.categories = categories;
     });
