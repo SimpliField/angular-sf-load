@@ -5,7 +5,7 @@
 [![Build status](https://secure.travis-ci.org/SimpliField/angular-sf-load.svg)](https://travis-ci.org/SimpliField/angular-sf-load)
 [![Dependency Status](https://david-dm.org/SimpliField/angular-sf-load.svg)](https://david-dm.org/SimpliField/angular-sf-load)
 [![devDependency Status](https://david-dm.org/SimpliField/angular-sf-load/dev-status.svg)](https://david-dm.org/SimpliField/angular-sf-load#info=devDependencies)
-[![Coverage Status](https://coveralls.io/repos/SimpliField/angular-sf-load/badge.svg?branch=master)](https://coveralls.io/r/SimpliField/angular-sf-load?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/SimpliField/angular-sf-load/badge.svg?branch=master)](https://coveralls.io/github/SimpliField/angular-sf-load?branch=master)
 [![Code Climate](https://codeclimate.com/github/SimpliField/angular-sf-load.svg)](https://codeclimate.com/github/SimpliField/angular-sf-load)
 
 
