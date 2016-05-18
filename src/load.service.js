@@ -1,8 +1,8 @@
 // The following consts are object masks defining
 // various states that will bet set on the given scope
 const DEFAULT_VALUES = {
-  activating: false, // Wether the content is loading for the first time
-  activated: false, // Wether the content were set once
+  activating: false, // Whether the content is loading for the first time
+  activated: false, // Whether the content were set once
   loading: true, // The content is currently loading
   reloading: false, // The content is currently loading and were loaded once before
   loaded: false, // The content were loaded succesfully
