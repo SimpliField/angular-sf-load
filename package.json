@@ -1,6 +1,6 @@
 {
   "name": "angular-sf-load",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Nicolas Froidure (SimpliField)",
   "license": "MIT",
   "main": "dist/load.service.js",
