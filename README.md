@@ -1,6 +1,7 @@
 # angular-sf-load
 > Manage AngularJS scope load.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/98b4d97d9e274eca997ba043780f5003)](https://www.codacy.com/app/SimpliField/angular-sf-load?utm_source=github.com&utm_medium=referral&utm_content=SimpliField/angular-sf-load&utm_campaign=badger)
 [![NPM version](https://badge.fury.io/js/angular-sf-load.svg)](https://npmjs.org/package/angular-sf-load)
 [![Build status](https://secure.travis-ci.org/SimpliField/angular-sf-load.svg)](https://travis-ci.org/SimpliField/angular-sf-load)
 [![Dependency Status](https://david-dm.org/SimpliField/angular-sf-load.svg)](https://david-dm.org/SimpliField/angular-sf-load)
